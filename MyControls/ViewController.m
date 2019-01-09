@@ -20,4 +20,17 @@
 }
 
 
+- (IBAction)rotationSlider:(UISwitch *)sender {
+}
+- (IBAction)rotationSwitch:(UISwitch *)sender {
+}
+
+- (IBAction)scaleSwitch:(UISwitch *)sender {
+}
+
+- (IBAction)translationSwitch:(UISwitch *)sender {
+}
+
+- (IBAction)actionSlider:(UISlider *)sender {
+}
 @end
