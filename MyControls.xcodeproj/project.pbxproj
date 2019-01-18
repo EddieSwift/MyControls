@@ -13,6 +13,9 @@
 		2CA6E70021E4F57800AA7422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6E6FF21E4F57800AA7422 /* Assets.xcassets */; };
 		2CA6E70321E4F57800AA7422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA6E70121E4F57800AA7422 /* LaunchScreen.storyboard */; };
 		2CA6E70621E4F57800AA7422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6E70521E4F57800AA7422 /* main.m */; };
+		2CA8ED8C21F1CCED00C1EFD5 /* apple_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA8ED8921F1CCED00C1EFD5 /* apple_logo.png */; };
+		2CA8ED8D21F1CCED00C1EFD5 /* rockstar_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA8ED8A21F1CCED00C1EFD5 /* rockstar_logo.png */; };
+		2CA8ED8E21F1CCED00C1EFD5 /* bmw_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA8ED8B21F1CCED00C1EFD5 /* bmw_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		2CA6E70221E4F57800AA7422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CA6E70421E4F57800AA7422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA6E70521E4F57800AA7422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CA8ED8921F1CCED00C1EFD5 /* apple_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_logo.png; sourceTree = "<group>"; };
+		2CA8ED8A21F1CCED00C1EFD5 /* rockstar_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rockstar_logo.png; sourceTree = "<group>"; };
+		2CA8ED8B21F1CCED00C1EFD5 /* bmw_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +69,23 @@
 				2CA6E6F921E4F57700AA7422 /* ViewController.h */,
 				2CA6E6FA21E4F57700AA7422 /* ViewController.m */,
 				2CA6E6FC21E4F57700AA7422 /* Main.storyboard */,
+				2CA8ED8821F1CCED00C1EFD5 /* Images */,
 				2CA6E6FF21E4F57800AA7422 /* Assets.xcassets */,
 				2CA6E70121E4F57800AA7422 /* LaunchScreen.storyboard */,
 				2CA6E70421E4F57800AA7422 /* Info.plist */,
 				2CA6E70521E4F57800AA7422 /* main.m */,
 			);
 			path = MyControls;
+			sourceTree = "<group>";
+		};
+		2CA8ED8821F1CCED00C1EFD5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2CA8ED8921F1CCED00C1EFD5 /* apple_logo.png */,
+				2CA8ED8A21F1CCED00C1EFD5 /* rockstar_logo.png */,
+				2CA8ED8B21F1CCED00C1EFD5 /* bmw_logo.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +148,9 @@
 				2CA6E70321E4F57800AA7422 /* LaunchScreen.storyboard in Resources */,
 				2CA6E70021E4F57800AA7422 /* Assets.xcassets in Resources */,
 				2CA6E6FE21E4F57700AA7422 /* Main.storyboard in Resources */,
+				2CA8ED8E21F1CCED00C1EFD5 /* bmw_logo.png in Resources */,
+				2CA8ED8C21F1CCED00C1EFD5 /* apple_logo.png in Resources */,
+				2CA8ED8D21F1CCED00C1EFD5 /* rockstar_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

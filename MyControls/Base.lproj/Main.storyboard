@@ -18,75 +18,108 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fee-RZ-EFU">
-                                <rect key="frame" x="197" y="1195" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fee-RZ-EFU">
+                                <rect key="frame" x="197" y="1195" width="51" height="31"/>
                                 <connections>
                                     <action selector="rotationSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="4gJ-wt-eHI"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dy0-N4-UXW">
-                                <rect key="frame" x="489" y="1195" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dy0-N4-UXW">
+                                <rect key="frame" x="487.5" y="1195" width="51" height="31"/>
                                 <connections>
                                     <action selector="scaleSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="mp8-Wh-aNc"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QuJ-Ni-eyr">
-                                <rect key="frame" x="762" y="1195" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QuJ-Ni-eyr">
+                                <rect key="frame" x="762" y="1195" width="51" height="31"/>
                                 <connections>
                                     <action selector="translationSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="6mv-jd-Jhh"/>
                                 </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rotation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Im4-hG-KhE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Im4-hG-KhE">
                                 <rect key="frame" x="177" y="1264" width="87" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIF-60-JMr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIF-60-JMr">
                                 <rect key="frame" x="483" y="1264" width="58" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="xoR-eD-70U">
-                                <rect key="frame" x="18" y="1115" width="988" height="30"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="xoR-eD-70U">
+                                <rect key="frame" x="18" y="1114" width="988" height="31"/>
                                 <connections>
                                     <action selector="actionSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="GyZ-Lb-b7M"/>
                                 </connections>
                             </slider>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Rt-gP-HpJ">
-                                <rect key="frame" x="20" y="24" width="984" height="938"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Translation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHB-wp-Upx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Translation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHB-wp-Upx">
                                 <rect key="frame" x="729" y="1264" width="113" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="job-dM-dFI">
-                                <rect key="frame" x="323" y="1009" width="378" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="job-dM-dFI">
+                                <rect key="frame" x="323" y="1008" width="378" height="29"/>
                                 <segments>
-                                    <segment title="Picture 1"/>
-                                    <segment title="Picture 2"/>
-                                    <segment title="Picture 3"/>
+                                    <segment title="Apple"/>
+                                    <segment title="Rock Star"/>
+                                    <segment title="BMW"/>
                                 </segments>
+                                <connections>
+                                    <action selector="pictureChooserSegmented:" destination="BYZ-38-t0r" eventType="valueChanged" id="2jo-nZ-KnD"/>
+                                </connections>
                             </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrR-hH-wZ8">
+                                <rect key="frame" x="20" y="24" width="984" height="931"/>
+                                <color key="backgroundColor" name="quaternaryLabelColor" catalog="System" colorSpace="catalog"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Im4-hG-KhE" firstAttribute="baseline" secondItem="RHB-wp-Upx" secondAttribute="baseline" id="8Fq-Ec-7xH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QuJ-Ni-eyr" secondAttribute="trailing" constant="213" id="9Ih-yn-zX2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RHB-wp-Upx" secondAttribute="trailing" constant="182" id="CJF-OQ-8xM"/>
+                            <constraint firstItem="fIF-60-JMr" firstAttribute="centerX" secondItem="xoR-eD-70U" secondAttribute="centerX" id="CYJ-pj-XKd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Im4-hG-KhE" secondAttribute="bottom" constant="53" id="FCD-4H-CwF"/>
+                            <constraint firstItem="TrR-hH-wZ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FSl-gR-tPz"/>
+                            <constraint firstItem="QuJ-Ni-eyr" firstAttribute="top" secondItem="xoR-eD-70U" secondAttribute="bottom" constant="51" id="Hyh-Uh-spO"/>
+                            <constraint firstItem="xoR-eD-70U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IjG-B5-jeu"/>
+                            <constraint firstItem="RHB-wp-Upx" firstAttribute="top" secondItem="QuJ-Ni-eyr" secondAttribute="bottom" constant="38" id="K2F-LG-CiE"/>
+                            <constraint firstItem="job-dM-dFI" firstAttribute="top" secondItem="TrR-hH-wZ8" secondAttribute="bottom" constant="53" id="K9K-fB-z6U"/>
+                            <constraint firstItem="fIF-60-JMr" firstAttribute="top" secondItem="dy0-N4-UXW" secondAttribute="bottom" constant="38" id="Lmg-XX-MST"/>
+                            <constraint firstItem="RHB-wp-Upx" firstAttribute="top" secondItem="QuJ-Ni-eyr" secondAttribute="bottom" constant="38" id="SoX-Vd-daB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xoR-eD-70U" secondAttribute="trailing" constant="20" id="UvI-Bj-BlJ"/>
+                            <constraint firstItem="Fee-RZ-EFU" firstAttribute="top" secondItem="xoR-eD-70U" secondAttribute="bottom" constant="51" id="VYY-EG-jzF"/>
+                            <constraint firstItem="Im4-hG-KhE" firstAttribute="baseline" secondItem="fIF-60-JMr" secondAttribute="baseline" id="XWl-Ao-gB1"/>
+                            <constraint firstItem="QuJ-Ni-eyr" firstAttribute="top" secondItem="dy0-N4-UXW" secondAttribute="top" id="brt-fk-8nw"/>
+                            <constraint firstItem="fIF-60-JMr" firstAttribute="leading" secondItem="Im4-hG-KhE" secondAttribute="trailing" constant="219" id="dJ3-pV-TXP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QuJ-Ni-eyr" secondAttribute="trailing" constant="213" id="eyR-ll-4qM"/>
+                            <constraint firstItem="TrR-hH-wZ8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ezn-4v-htR"/>
+                            <constraint firstItem="xoR-eD-70U" firstAttribute="top" secondItem="job-dM-dFI" secondAttribute="bottom" constant="78" id="fco-CL-e0G"/>
+                            <constraint firstItem="job-dM-dFI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="323" id="g46-FP-Ozi"/>
+                            <constraint firstItem="dy0-N4-UXW" firstAttribute="centerX" secondItem="fIF-60-JMr" secondAttribute="centerX" id="hZK-1O-7Th"/>
+                            <constraint firstItem="RHB-wp-Upx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fIF-60-JMr" secondAttribute="trailing" constant="8" symbolic="YES" id="hrN-of-vlL"/>
+                            <constraint firstItem="dy0-N4-UXW" firstAttribute="top" secondItem="xoR-eD-70U" secondAttribute="bottom" constant="51" id="kId-mj-J0J"/>
+                            <constraint firstItem="Im4-hG-KhE" firstAttribute="top" secondItem="Fee-RZ-EFU" secondAttribute="bottom" constant="38" id="lfc-xS-4d1"/>
+                            <constraint firstItem="Fee-RZ-EFU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="197" id="mCN-7O-gh0"/>
+                            <constraint firstItem="Fee-RZ-EFU" firstAttribute="top" secondItem="xoR-eD-70U" secondAttribute="bottom" constant="51" id="pFf-Tt-NRb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="job-dM-dFI" secondAttribute="trailing" constant="323" id="sId-63-5Hk"/>
+                            <constraint firstItem="job-dM-dFI" firstAttribute="top" secondItem="TrR-hH-wZ8" secondAttribute="bottom" constant="53" id="t6t-oJ-HrD"/>
+                            <constraint firstItem="xoR-eD-70U" firstAttribute="top" secondItem="job-dM-dFI" secondAttribute="bottom" constant="78" id="tvh-jY-jbq"/>
+                            <constraint firstItem="Im4-hG-KhE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uwv-Gc-wPk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TrR-hH-wZ8" secondAttribute="trailing" constant="20" id="yqa-Hh-V3l"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="picturesSegmentedControl" destination="job-dM-dFI" id="22H-4V-Jn6"/>
+                        <outlet property="screenView" destination="TrR-hH-wZ8" id="G9N-So-0Ki"/>
                         <outlet property="speedAnimationSlider" destination="xoR-eD-70U" id="yzD-s4-G9a"/>
+                        <outlet property="valueRotationSwitch" destination="Fee-RZ-EFU" id="gQx-um-7Qe"/>
+                        <outlet property="valueScaleSwitch" destination="dy0-N4-UXW" id="OzK-Jw-sZM"/>
+                        <outlet property="valueTranslationSwitch" destination="QuJ-Ni-eyr" id="YtT-r2-opO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
